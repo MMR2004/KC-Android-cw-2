@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args)
+	{
+		
+		int height = 160;
+		
+		int lower_height = 160;
+		
+       if (height > lower_height){
+           System.out.print("you can enter");
+       } 
+       else if (height < lower_height){
+           System.out.print("you can't enter pls go away");
+       }
+       else if (height == lower_height) {
+           System.out.print("Sorry if you were a centimeter tall you would have entered hahahaha");
+       }
+        
+
+	}
+}
